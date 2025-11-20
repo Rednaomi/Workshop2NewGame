@@ -2698,8 +2698,9 @@ GameObject:
   - component: {fileID: 792229831}
   - component: {fileID: 792229830}
   - component: {fileID: 792229829}
+  - component: {fileID: 792229833}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: PiaThePinkAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2858,6 +2859,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &792229833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792229828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400f443fa38a5c0429e5d9112de89e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &897205227 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9012694090992774166, guid: f8702461f1ceb80458450ed108e99227, type: 3}
@@ -3864,7 +3877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1405002796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4258,7 +4271,7 @@ GameObject:
   - component: {fileID: 1639882642}
   - component: {fileID: 1639882641}
   m_Layer: 5
-  m_Name: Dialouge
+  m_Name: DialougePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4605,8 +4618,9 @@ GameObject:
   - component: {fileID: 1990329832}
   - component: {fileID: 1990329831}
   - component: {fileID: 1990329838}
+  - component: {fileID: 1990329839}
   m_Layer: 0
-  m_Name: Player
+  m_Name: YolanaTheYellowPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4785,6 +4799,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 11608ef1-e577-40a3-8c2e-324c089011e5
     m_ActionName: 'Player/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 532a7b4d-17b5-42da-999b-e899bdda64ed
+    m_ActionName: 'Player/TestAction[/Keyboard/w]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -4883,6 +4901,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1990329839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990329830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1070aeee616e9408a472fab57ae856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2038828290
 PrefabInstance:
   m_ObjectHideFlags: 0
