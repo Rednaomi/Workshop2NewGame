@@ -9,9 +9,12 @@ public class MoveToNextLevel : MonoBehaviour
     
     
 
-    public void NextScene()
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(Level2);
+        if (other.tag == "BlueKey")
+            {
+            SceneManager.LoadScene(1);
+            }
     }
     // Update is called once per frame
     
